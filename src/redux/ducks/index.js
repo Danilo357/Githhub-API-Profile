@@ -1,1 +1,1 @@
-export { default as todoReducer } from "./todos"
+export { default as Reducer } from "./github"

@@ -14,6 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 1200px;
+  margin: auto;
 }
 
 code {
@@ -23,4 +25,119 @@ code {
 
 .completed {
   text-decoration: line-through;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.reponame {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reponame1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+::placeholder {
+  color: black;
+}
+.inedit {
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+  background: rgb(238 238 238);
+  border: 1px solid rgb(220 220 220);
+  border-radius: 5px;
+}
+
+.location {
+  font-size: 15px;
+}
+.log {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.main {
+  padding-left: 30px;
+}
+
+.find {
+  width: 500px;
+  height: 50px;
+  margin-left: 30px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.yellow {
+  background: yellow;
+}
+.languageDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.red {
+  background: red;
+}
+.purple {
+  background: purple;
+}
+
+.nodiv {
+  background: rebeccapurple;
+}
+
+.butt {
+  width: 70px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.www {
+  width: 1000px;
+}
+.code {
+  display: flex;
+}
+.fin {
+  width: 100px;
+  height: 50px;
+  margin: 11px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+}
+
+.fins {
+  width: 100px;
+  height: 50px;
+  margin: 11px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  background: chartreuse;
 }

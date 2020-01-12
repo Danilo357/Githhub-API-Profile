@@ -1,17 +1,17 @@
-import React from "react"
-import I from "../lib/Icon"
-import moment from "moment"
+import React from "react";
+import I from "../lib/Icon";
+import moment from "moment";
 
 function color(language) {
   switch (language) {
     case "JavaScript":
-      return "yellow languageDot"
+      return "yellow languageDot";
     case "HTML":
-      return "red languageDot"
+      return "red languageDot";
     case "CSS":
-      return "purple languageDot"
+      return "purple languageDot";
     default:
-      return "nodiv"
+      return "nodiv";
   }
 }
 
@@ -75,9 +75,9 @@ function Repos(props) {
         </div>
       ))}
     </div>
-  )
+  );
 }
 
-// iterator is the same as i - index in loops
+// iterator is the same as i - index in loops i-index
 
-export default Repos
+export default Repos;
